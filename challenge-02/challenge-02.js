@@ -80,24 +80,26 @@ Crie uma função com as seguintes características:
 */
 
 function numeros(a,b,c) {
-    if( b = undefined && c === undefined){
-        return(a)
+    if( b == undefined && c === undefined){
+        console.log(a)
     }
 
     else if ( c === undefined ){
-        return( a + b)
+        console.log( a + b)
     }
-
     else if (a != undefined && b != undefined && c != undefined){
-        return((a+b)/c)
+        console.log((a+b)/c)
     }
     else if ( a === undefined && b === undefined && c === undefined ) {
-        return (null)
+        console.log (null)
     }
     else {
-        return(null)
+        console.log(null)
     }
 }
+
+numeros(1, 1,2)
+
 
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
